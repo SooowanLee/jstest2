@@ -32,8 +32,8 @@ const a = fruits.forEach((fruit, index) => {
 console.log(a);
 
 const b = fruits.map((fruit, index) => ({
-  id: index,
-  name: fruit
+    name: fruit,
+    id: index
 }));
 console.log(b);
 
